@@ -1,9 +1,212 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif ;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #757575;
+    --title-color: #212121;
+    --accent-color: #2196f3;
 }
-a {
+.link {
+    color: #757575;
     text-decoration: none;
 }
-ul {
+.list {
+     list-style: none;
+}
+/* Хедер */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+.logo-black {
+    color: black;
+}
+.header-list {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-link-nav {
+    color: var(--accent-color);
+
+}
+.contact-link-nav {
+    color: var(--accent-color);
+}
+.header-list .link:hover,
+.header-list .link:focus,
+.contact-link-nav .link:hover,
+.contact-link-nav .link:focus,
+.contact-link .link:hover,
+.contact-link .link:focus { 
+color: var(--accent-color); }
+/* Герой */
+.hero {
+    background: #2F303A;
+}
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.hero-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     
+    color: #FFFFFF;
+
+    background: var(--accent-color);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+.btn {
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+/* Наші переваги */
+.benefits{
+
+}
+.hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.benefits-list {
+}
+.benefits-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-color);
+}
+.benefits-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+/* Наша Робота */
+.work {
+}
+.work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--title-color);
+}
+.work-list {
+}
+/* Наша Команда */
+.team {
+}
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--title-color);
+}
+.team-list {
+}
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--title-color);
+}
+.prof {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+/* Підвал */
+footer {
+    background: #2F303A; 
+}
+.logo-white {
+    color: white;
+}
+address {
+    font-style: normal;
+}
+.address-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+}
+.address-list .link:hover,
+.address-list .link:focus,
+.address-link-footer link:hover,
+.address-link-footer link:focus
+{color: var(--accent-color);}
+/* Портфоліо */
+.portfolio-list{
+
+}
+.portfolio-list-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-color);
+}
+.portfolio-list-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
