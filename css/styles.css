@@ -169,6 +169,9 @@ address {
 .link-address:focus
 {color: var(--accent-color);}
 /* Портфоліо */
+.header-link-second {
+    color: var(--title-color);
+}
 .hero-btn-port {
     font-family: 'Roboto';
     font-style: normal;
