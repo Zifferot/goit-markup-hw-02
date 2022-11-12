@@ -39,6 +39,9 @@ a {
     letter-spacing: 0.02em;
     color: black;
 }
+.header-link {
+    color: black;
+}
 .header-list-cont{
 font-family: Roboto;
 font-style: normal;
@@ -52,15 +55,10 @@ color: #757575;
     color: var(--accent-color);
 
 }
-.contact-link-nav {
-    color: var(--accent-color);
-}
 .header-list-cont :hover,
 .header-list-cont :focus,
 .header-list :hover,
 .header-list :focus,
-.contact-link-nav .link:hover,
-.contact-link-nav .link:focus,
 .contact-link .link:hover,
 .contact-link .link:focus { 
 color: var(--accent-color); }
@@ -88,6 +86,7 @@ color: var(--accent-color); }
     text-align: center;
     letter-spacing: 0.06em;
     color: white;
+    letter-spacing: 0.06em;
   }
 .btn {
         font-family: inherit;
@@ -96,6 +95,7 @@ color: var(--accent-color); }
         font-size: 16px;
         letter-spacing: inherit;
         line-height: 1.62;
+        letter-spacing: 0.06em;
         background-color: var(--accent-color);
         color: white;
         border-radius: 4px;
@@ -116,19 +116,25 @@ color: var(--accent-color); }
         overflow: hidden;
 }
 .benefits-title {
+    font-size: 14px;
     line-height: 1.14;
     color: var(--title-color);
 }
 .benefits-text {
- line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 }
 /* Наша Робота */
 .work-title {
+    font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 /* Наша Команда */
 .team-title {
+    font-size: 36px;
+    letter-spacing: 0.03em;
     line-height: 1.16;
     color: var(--title-color);
 }
@@ -138,9 +144,12 @@ color: var(--accent-color); }
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .prof {
+    font-size: 16px;
+    letter-spacing: 0.03em;
     line-height: 1.18;
 
 }
@@ -177,7 +186,7 @@ address {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: var(--accent-color);
@@ -186,25 +195,25 @@ address {
     cursor: pointer;
     
 }
-.btn-prot {
+.btn-port {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
     color: var(--title-color);
     cursor: pointer;
 }
-.btn-prot:hover,
-.btn-prot:focus { 
+.btn-port:hover,
+.btn-port:focus { 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: var(--accent-color);
@@ -215,9 +224,11 @@ address {
 .portfolio-list-title {
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--title-color);
 }
 .portfolio-list-text {
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
 }
